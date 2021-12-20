@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Animation */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+/* Bien ma mau*/
+:root{
+    --primary-color: #ee4d2d;
+
+}
+

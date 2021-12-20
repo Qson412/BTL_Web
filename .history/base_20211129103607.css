@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Animation */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+/* Bien ma mau*/
+:root{
+    --primary-color: #ee4d2d;
+}
+
+/* Modal */
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+}
+
+.modal__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.modal__body{
+    z-index: 1;
+   background-color: red;
+   width: 500px;
+   height: 500px;
+    margin: auto;
+}
+
